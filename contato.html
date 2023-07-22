@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Clínica - Bem-estar</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="template.html">Ínicio</a></li>
+          <li><a href="sobre.html">Sobre a Clínica</a></li>
+          <li><a href="horario.html">Horários de Atendimento</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <img
+            src="./images/depositphotos_488456916-stock-photo-doctors-blue-uniform-smiling-camera.jpg"
+            width="100%"
+            height="251"
+            alt=""
+          />
+          <!-- Aqui vai o seu header -->
+        </div>
+
+        <div class="content">
+          <h1>Contato</h1>
+          <ul>
+            <li>Telefone: (11) 5511-5511</li>
+            <li>Whatsapp: (11) 98888-9999</li>
+          </ul>
+
+          <h2>Nossa Localização</h2>
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14628.716577852732!2d-46.65713079112165!3d-23.56200864057301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59b756463d61%3A0x9f3d1e6f7f40964!2sBela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1689986538134!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <h2>Fale Conosco</h2>
+          <form
+            name="contact"
+            action="contato@clinicabem-estar.com.br"
+            method="post"
+            fixed
+          >
+          <fieldset>
+            <legend>Informaçoes para contato</legend>
+            <label>Nome:</label><br /><input type="text" name="name" /><br />
+            <label>E-mail:</label><br /><input
+              type="email"
+              name="email"
+            /><br />
+            <label>Assunto:</label><br /><input
+              type="text"
+              name="subject"
+            /><br>
+            <label>Sexo:</label><br>
+            <input type="radio" name="sexo" id="m"> M<br>
+            <input type="radio" name="sexo" id="f"> F<br>
+          <br />
+            <p><label for="">Menssagem:</label></p>
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Sua menssagem aqui!"
+            ></textarea
+            ></fieldset><br />
+            <input class="btn" type="reset" value="Limpar" />
+            <input class="btn" type="submit" value="Enviar" />
+          </form>
+          <!-- Aqui vai o seu conteúdo -->
+        </div>
+
+        <div class="footer">
+          <h3>Endereço:</h3>
+          <p>Rua dos Bocuaras, n° 5000 - Centro</p>
+          <p>Cidade: São Paulo - SP</p>
+          <p>CEP: 99889-99</p>
+          <!-- Aqui vai o seu rodapé -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

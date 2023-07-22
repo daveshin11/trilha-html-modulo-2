@@ -11,28 +11,70 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: white;
 }
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(203, 161, 161);
     padding: 10px 20px 0px;
 }
+
+.menu li a{
+    text-decoration: none;
+    
+}
+
+.menu li a:hover{
+    color: #f1f1f1;
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: white;
     min-height: 150px;
+    max-height: 200px;
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgb(141, 107, 252);
     min-height: 150px;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+input {
+    margin: 5px auto;
+}
+
+.btn {
+    color: white;
+    background-color: green;
+}
+
+.btn:hover {
+    background-color:rgb(141, 107, 252)
+}
+
+.content form textarea {
+    max-width: 250px;
+    max-height: 230px;
+}
+
+iframe{
+    margin-bottom: 50px;
 }
